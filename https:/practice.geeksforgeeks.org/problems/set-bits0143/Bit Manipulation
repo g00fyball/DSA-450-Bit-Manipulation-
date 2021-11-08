@@ -1,0 +1,18 @@
+
+### Algorithm Using Brian Kernighan’s algorithm ###
+
+class Solution {
+  public:
+    int setBits(int N) {
+
+        int ans=0;
+        
+        while(N)
+        {
+            N&=N-1;
+            ans++;
+        }
+
+        return ans;
+    }
+};
