@@ -16,3 +16,15 @@ class Solution {
         return ans;
     }
 };
+
+also builtin functions
+
+__builtin_popcount(n);
+
+class Solution {
+  public:
+    int setBits(int n) {
+
+        int ans=__builtin_popcount(n);
+        return ans;
+    }
